@@ -24,14 +24,14 @@ export default [
   {
     ignores: ["dist/", "*.mjs"],
   },
-  // {
-    // files: ["**/*.test.js", "**/__tests__/*.js"],
-    // languageOptions: {
-    //   globals: {
-    //     ...globals.jest,
-    //   },
-    // },
-  // },
+  {
+    files: ["**/*.test.js", "**/__tests__/*.js"],
+    languageOptions: {
+      globals: {
+        ...globals.jest,
+      },
+    },
+  },
   {
     files: ["webpack.config.js"],
     languageOptions: {

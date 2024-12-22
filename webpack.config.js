@@ -13,8 +13,6 @@ module.exports = {
         clean: true,
     },
 
-    // devtool: 'inline-source-map',
-
     module: {
         rules: [
             {

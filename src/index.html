@@ -1,11 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta charset="UTF-8" />
-    <title>RPG Game</title>
+    <meta charset="UTF-8">
+    <title>RPG игра</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-<h1>RPG Game</h1>
-<div id="root"></div>
+<header>
+    <h1>RPG игра</h1>
+</header>
+
+<main>
+    <section id="players-container">
+        <h2>Игроки</h2>
+        <div id="players">
+        </div>
+    </section>
+
+    <section id="game-log">
+        <h2>Лог игры</h2>
+        <div id="log">
+        </div>
+    </section>
+
+    <button id="start-button">Начать игру</button>
+</main>
+
+<script src="game.js" type="module"></script>
 </body>
 </html>
